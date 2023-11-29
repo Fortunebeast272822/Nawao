@@ -15,12 +15,18 @@
       height: 100vh;
     }
 
+    html, body {
+      height: 100%;
+    }
+
     .container {
       text-align: center;
       background-color: #fff;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
     }
 
     h1 {
@@ -35,8 +41,8 @@
     }
 
     .poll img {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       margin-right: 20px;
     }
@@ -49,11 +55,11 @@
 
     .option {
       margin: 10px 0;
-      padding: 10px 20px;
+      padding: 15px 30px;
       background-color: #3498db;
       color: #fff;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
       cursor: pointer;
       transition: background-color 0.3s;
       text-decoration: none;
@@ -66,32 +72,32 @@
     }
 
     .option img {
-      width: 50px;
-      height: 50px;
-      margin-right: 10px;
+      width: 70px;
+      height: 70px;
+      margin-right: 15px;
       border-radius: 50%;
     }
   </style>
-  <title>Horizontal Poll Vote</title>
+  <title>Full Page Poll Vote</title>
 </head>
 <body>
   <div class="container">
     <h1>Vote for Your Favorite Option</h1>
     <div class="poll">
-      <img src="https://via.placeholder.com/100" alt="Poll Image">
+      <img src="https://via.placeholder.com/150" alt="Poll Image">
       <div class="options">
         <a class="option" href="https://www.example.com/option1" target="_blank">
-          <img src="https://via.placeholder.com/50" alt="Option 1 Image">
+          <img src="https://via.placeholder.com/70" alt="Option 1 Image">
           Option 1
         </a>
 
         <a class="option" href="https://www.example.com/option2" target="_blank">
-          <img src="https://via.placeholder.com/50" alt="Option 2 Image">
+          <img src="https://via.placeholder.com/70" alt="Option 2 Image">
           Option 2
         </a>
 
         <a class="option" href="https://www.example.com/option3" target="_blank">
-          <img src="https://via.placeholder.com/50" alt="Option 3 Image">
+          <img src="https://via.placeholder.com/70" alt="Option 3 Image">
           Option 3
         </a>
       </div>
@@ -100,5 +106,7 @@
 </body>
 </html>
 
+      
+        
 
     
